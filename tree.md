@@ -1,0 +1,546 @@
+comcat tree
+===========
+
+- 10  Hards  
+  - 1010  Energy  
+    - 101010  Crude Products  
+      - 10101010  Crude Oil  
+      - 10101015  Crude Variance  
+      - 10101050  Crude Transfer  
+      - 10101070  Crude Storage  
+      - 10101080  Crude Premium  
+      - 10101085  Crack Spread  
+    - 101020  Natural Gas  
+      - 10102010  Purified Natural Gas  
+      - 10102015  Natural Gas Variance  
+      - 10102020  Liquefied Natural Gas  (LNG)
+      - 10102030  Liquefied Petroleum Gas  (LPG)
+      - 10102040  Natural Gas Condensate  (Condy)
+      - 10102050  Gas Baseload  
+      - 10102055  Pipeline capacity  
+      - 10102080  Gas Premium  
+      - 10102085  Spark Spread  
+    - 101030  Refined Products  
+      - 10103010  Heating Oil  
+      - 10103020  Gasoline  (Petrol)
+      - 10103030  Kerosene  (Jet Fuel, Paraffin)
+      - 10103040  Diesel  (Petrodiesel, Gas Oil)
+      - 10103050  Marine Fuel  (Fuel Oil, Bunker, HFO, HSFO, NSFO)
+      - 10103060  Naphtha  
+      - 10103080  Visco Spread  
+      - 10103090  Other Refined Products  
+    - 101040  Coal  
+      - 10104010  Anthracite  (Hard Coal)
+      - 10104020  Bituminous Coal  (Thermal Coal, Black Coal)
+      - 10104025  Sub-Bituminous Coal  
+      - 10104030  Lignite  (Brown Coal)
+      - 10104040  Coke  
+    - 101050  Electricity  
+      - 10105010  Base Load  
+      - 10105020  Peak Load  
+      - 10105030  Off-peak  
+      - 10105040  Shoulder  
+      - 10105050  Floor/Cap  
+      - 10105080  Transmission Rights  
+  - 1020  Precious Metal  
+    - 102010  Gold  
+    - 102015  Gold Variance  
+    - 102020  Silver  
+    - 102025  Silver Variance  
+    - 102030  Platinum  
+    - 102040  Palladium  
+    - 102050  Iridium  
+    - 102060  Rhodium  
+    - 102070  Ruthenium  
+    - 102075  Osmium  
+    - 102080  Precious Metal Cross  
+    - 102085  Precious Metal Variance  
+  - 1030  Base Metal  (Non-ferrous Metal)
+    - 103010  Copper  
+    - 103013  Brass  
+    - 103015  Bronze  
+    - 103020  Aluminium  
+    - 103025  North American Special Aluminum Alloy  (NASAAC)
+    - 103030  Zinc  
+    - 103040  Nickel  
+    - 103050  Tin  
+    - 103060  Lead  
+    - 103070  Titanium  
+  - 1035  Ferrous Metal  
+    - 103510  Pig Iron  
+    - 103520  Steel  
+    - 103530  Iron Ore  
+    - 103535  Ferrous Scrap  
+    - 103540  Bauxite  
+    - 103550  Manganese  
+    - 103560  Molybdenum  
+    - 103570  Chromium  
+  - 1040  Rare Metal  
+    - 104010  Uranium  
+    - 104020  Cobalt  
+    - 104030  Lithium  
+    - 104040  Bismuth  
+- 20  Softs  
+  - 2010  Cereals  
+    - 201010  Maize  (Corn)
+    - 201020  Rice  
+    - 201030  Wheat  
+    - 201035  Durum  (Pasta Wheat)
+    - 201040  Barley  
+    - 201050  Oats  
+    - 201060  Sorghum  
+    - 201065  Pearl Millet  (Bajra, Kambu, Sajjey)
+    - 201070  Rye  
+    - 201075  Triticale  
+    - 201080  Grain Inter Spread  
+    - 201090  Other Cereals and Pseudocereals  
+      - 20109010  Buckwheat  
+      - 20109020  Quinoa  
+  - 2020  Oil-Bearing Crops  
+    - 202010  Soybeans  
+    - 202020  Rapeseed  (Canola)
+    - 202030  Oil Palm Fruit  
+    - 202035  Coconuts  
+    - 202040  Cottonseed  
+    - 202050  Groundnuts  
+    - 202080  Oilseed Inter Spread  
+    - 202085  Crush Spread  
+    - 202090  Other Rosid Seeds  
+      - 20209010  Melonseed  (Egusi)
+      - 20209020  Castor Beans  
+      - 20209030  Tung Nuts  
+      - 20209040  Mustard Seed  
+      - 20209050  Tallowtree Seeds  
+      - 20209060  Linseed  
+      - 20209065  Hempseed  
+      - 20209070  Kapok Fruit  
+    - 202095  Other Asterid Seeds  
+      - 20209510  Sunflower Seed  
+      - 20209520  Olives  
+      - 20209530  Safflower Seed  
+      - 20209535  Sesame Seed  
+      - 20209540  Karite Nuts  (Shea Nuts)
+    - 202099  Other Oilseeds  
+      - 20209910  Poppy Seed  
+      - 20209920  Jojoba  (Goat Nut)
+  - 2025  Vegetal Oils and Fats  
+    - 202510  Oil of Soybeans  
+    - 202520  Oil of Rapeseed  
+    - 202530  Oil of Palm  (CPO, Crude Palm Oil)
+    - 202531  Processed Oil of Palm  
+      - 20253110  RBD Palm Olein  
+      - 20253120  Palm Stearin  
+      - 20253130  Palm Acid Oil  
+      - 20253135  Palm Fatty Acid Distillate  (PFAD)
+    - 202532  Oil of Palm Kernel  (CPKO)
+    - 202533  Processed Oil of Palm Kernel  
+      - 20253310  RBD Palm Kernel Oil  (RBDPKO)
+      - 20253320  Palm Kernel Stearin  
+      - 20253330  Palm Kernel Acid Oil  
+      - 20253335  Palm Kernel Fatty Acid Distillate  (PKFAD)
+    - 202535  Oil of Coconuts  (Oil of Copra)
+    - 202540  Oil of Cottonseed  
+    - 202550  Oil of Groundnuts  
+    - 202590  Other Rosid Oils  
+      - 20259010  Melon Seed Oil  (Ootanga Oil)
+      - 20259020  Oil of Castor Beans  
+      - 20259025  Hydrogenated Castor Oil  
+      - 20259030  Oil of Tung Nuts  (China wood oil)
+      - 20259040  Oil of Mustard Seed  
+      - 20259050  Stillingia Tallow  (Chinese Vegetable Tallow)
+      - 20259052  Stillingia Oil  
+      - 20259060  Oil of Linseed  
+      - 20259065  Oil of Hempseed  
+      - 20259070  Oil of Kapok  
+    - 202595  Other Asterid Oils  
+      - 20259510  Oil of Sunflower  
+      - 20259520  Virgin Oil of Olives  
+      - 20259525  Oil of Olive Cake  
+      - 20259530  Oil of Safflower Seed  
+      - 20259535  Oil of Sesame Seed  
+      - 20259540  Butter of Karite Nuts  (Shea Butter)
+      - 20259550  Oil of Mentha  
+    - 202599  Other Vegetal Oils  
+      - 20259910  Oil of Poppy Seed  
+      - 20259920  Jojoba Oil  
+      - 20259980  Oil of Rice Bran  
+      - 20259981  Oil of Maize  (Corn Oil)
+  - 2026  Vegetal Cakes and Meals  
+    - 202610  Cake and Meal of Soybeans  
+    - 202620  Cake and Meal of Rapeseed  
+    - 202630  Palm Cake and Palm Meal  
+    - 202632  Cake and Meal of Palm Kernel  (PKC, PKM)
+    - 202640  Cake and Meal of Cottonseed  
+    - 202690  Other Cake and Meal of Rosids  
+      - 20269040  Cake and Meal of Mustard Seed  
+  - 2030  Sugar Crops and Vegetal Sweeteners  
+    - 203010  Sugar Cane  
+      - 20301010  Cane Sugar  
+    - 203020  Sugar Beet  
+      - 20302010  Beet Sugar  
+    - 203030  Other Sugar Crops  
+    - 203040  Non-Centrifugal Sugar  
+    - 203050  Raw Centrifugal Sugar  
+      - 20305010  Refined Sugar  
+      - 20305020  Molasses  
+    - 203060  Stevia  
+  - 2035  Starches, Gums, and Polysaccharides  
+    - 203510  Corn Starch  (Cornflour)
+    - 203520  Potatoe Starch  
+    - 203530  Malt  
+    - 203540  Tapioca  
+    - 203550  Guar Beans  
+    - 203555  Guar Gum  
+    - 203557  Guar Meal  
+    - 203560  Arabic Gum  
+  - 2040  Roots and Tubers  
+    - 204010  Potatoes  
+    - 204015  Sweet Potatoes  
+    - 204020  Yams  
+    - 204030  Cassava  (Manioc)
+    - 204040  Taro  
+    - 204045  Yautia  
+    - 204050  Chicory Roots  
+    - 204090  Other Roots or Tubers  
+  - 2045  Legumes and Pulses  
+    - 204510  Chickpeas  (Bengal Gram, Chana)
+    - 204520  Adzuki Beans  (Azuki Beans, Red Beans, Red Mung Beans)
+    - 204525  Mung Beans  (Green Gram)
+    - 204527  Urad  (Black Gram)
+    - 204530  Peas  
+  - 2050  Fruits  
+    - 205010  Citrus Fruits  
+      - 20501010  Sweet Oranges  
+      - 20501020  Tangerines and Mandarines and Clementines and Satsumas  
+      - 20501030  Lemons  
+      - 20501035  Limes  
+      - 20501040  Grapefruit  
+      - 20501045  Pomelo  
+      - 20501090  Other Citrus Fruit  
+    - 205020  Pome Fruits  
+      - 20502010  Apples  
+      - 20502020  Pears  
+      - 20502030  Quinces  
+      - 20502090  Other Pome Fruits  
+    - 205030  Stone Fruit  (Drupe)
+      - 20503010  Cherries  
+      - 20503020  Apricots  
+      - 20503030  Peaches and Nectarines  
+      - 20503040  Plums  
+      - 20503090  Other Drupes  
+    - 205040  Berries  
+      - 20504010  Strawberries  
+      - 20504020  Raspberries  
+      - 20504030  Gooseberries  
+      - 20504040  Currants  
+      - 20504050  Blueberries  
+      - 20504060  Cranberries  
+      - 20504090  Other Berries  
+    - 205050  Tropical Fruits  
+      - 20505010  Bananas and Plantains  
+      - 20505020  Kiwi Fruit  (Chinese gooseberry)
+      - 20505030  Mangoes  
+      - 20505040  Jujube  
+      - 20505050  Avocados  
+      - 20505060  Dates  
+      - 20505065  Figs  
+      - 20505068  Jackfruit  
+      - 20505070  Papayas  
+      - 20505080  Pineapples  
+      - 20505090  Other Tropical Fruit  
+    - 205090  Other Fresh Fruit  
+  - 2055  Fruit Juices and Fruit Syrups  
+    - 205510  Juices and Syrups from Citrus Fruits  
+      - 20551010  Frozen Orange Juice  
+    - 205520  Juices and Syrups from Pome Fruits  
+      - 20552010  Apple Juice Concentrate  
+  - 2060  Spices  
+    - 206010  Cardamom  
+    - 206020  Cinnamon  
+    - 206030  Nutmeg  
+    - 206035  Mace  
+    - 206040  Ginger  
+    - 206045  Turmeric  (Curcuma)
+    - 206050  Cumin  (Jeera)
+    - 206055  Coriander  
+    - 206060  Vanilla  
+    - 206070  Pepper  
+    - 206075  Pimento  (Allspice)
+    - 206080  Chilli  (Chili)
+    - 206090  Other Spices  
+  - 2065  Herbs  
+  - 2070  Stimulant Crops  
+    - 207010  Green Coffee  
+    - 207020  Cocoa Beans  
+    - 207025  Carobs  
+    - 207030  Tea  
+    - 207035  Mate  
+    - 207039  Other Tea  
+    - 207040  Tobacco Leaves  
+    - 207050  Hops  
+    - 207090  Other Stimulant Crops  
+  - 2510  Livestock  
+    - 251010  Cattle  
+    - 251015  Buffaloes  
+    - 251020  Sheep  
+    - 251025  Goats  
+    - 251030  Swine  (Pigs, Hogs)
+    - 251040  Chickens  
+    - 251042  Turkeys  
+    - 251045  Ducks  (Mallards)
+    - 251047  Geese  
+    - 251048  Pigeons  
+    - 251049  Other Birds  
+    - 251050  Horses  
+    - 251055  Asses  (Donkey)
+    - 251058  Mules  
+    - 251060  Camels  
+    - 251069  Other Camelids  
+    - 251070  Rabbits  
+    - 251079  Other Rodents  
+    - 251090  Other Live Animals  
+    - 251095  Other Non-Food Live Animals  
+  - 2520  Animal Oils and Fats  
+    - 252010  Fat of Cattle  (Beef Tallow)
+    - 252015  Fat of Buffalo  
+    - 252020  Fat of Sheep  (Mutton Tallow)
+    - 252025  Fat of Goats  
+    - 252030  Fat of Pigs  (Lard)
+    - 252040  Fat of Poultry  
+    - 252060  Fat of Camels  
+    - 252069  Fat of Other Camelids  
+    - 252080  Oil of Oily Fish  
+    - 252090  Other Animal Fats  
+  - 2530  Food from Slaughtered Animals  
+    - 253010  Meat of Cattle  (Beef)
+    - 253015  Buffalo Meat  (Buff, Red Beef)
+    - 253020  Meat of Sheep  (Mutton)
+    - 253025  Goat Meat  
+    - 253030  Pig Meat  (Pork)
+    - 253040  Chicken Meat  
+    - 253042  Turkey Meat  
+    - 253045  Duck Meat  
+    - 253047  Goose Meat  
+    - 253048  Meat of Pigeons  (Squab)
+    - 253049  Meat of Other Birds  
+    - 253050  Horse Meat  
+    - 253055  Meat of Asses  
+    - 253058  Meat of Mules  
+    - 253060  Meat of Camels  
+    - 253069  Meat of other Domestic Camelids  
+    - 253070  Rabbit Meat  
+    - 253079  Meat of other Domestic Rodents  
+    - 253080  Gutted Iced Tuna  
+    - 253085  Gutted Iced Salmon  
+    - 253089  Other Gutted Iced Oily Fish  
+    - 253090  Other Meat  
+    - 253095  Offal  
+  - 2535  Meat Products and Meat Preparations  
+    - 253510  Dried Meat  
+    - 253520  Meat and Bone Meal  (MBM)
+    - 253525  Blood Meal  
+    - 253540  Indigenous Meat  (Bushmeat)
+    - 253550  Biological Meat  (Organic Meat)
+    - 253590  Other Meat Preparations  
+  - 2540  Food from Live Animals  
+    - 254010  Cow Milk  
+      - 25401010  Standardized Milk  
+      - 25401011  Condensed Whole Milk  
+      - 25401012  Evaporated Whole Milk  
+      - 25401013  Dry Whole Cow Milk  
+      - 25401015  Fresh Cream  
+      - 25401016  Butter of Cow Milk  
+      - 25401017  Ghee from Cow Milk  
+      - 25401020  Skim Milk of Cows  
+      - 25401021  Condensed Skim Milk  
+      - 25401022  Evaporated Skim Milk  
+      - 25401023  Dry Skim Cow Milk  
+      - 25401030  Fresh Whey  
+      - 25401031  Condensed Whey  
+      - 25401033  Dry Whey  (Whey Powder)
+      - 25401040  Cheese from Whole Cow Milk  
+      - 25401042  Cheese From Skimmed Cow Milk  
+      - 25401043  Whey Cheese  
+      - 25401045  Processed Cheese  
+      - 25401050  Buttermilk  (Curdled Milk)
+      - 25401053  Dry Buttermilk  
+      - 25401055  Unconcentrated Yoghurt  
+      - 25401056  Concentrated Yoghurt  
+      - 25401060  Lactose  
+      - 25401065  Casein  
+      - 25401070  Reconstitued Milk  
+      - 25401080  Products of Natural Milk Constituents  
+      - 25401085  Ice Cream and Edible Ice  
+      - 25401090  Other Milk Products  
+    - 254015  Buffalo Milk  
+    - 254016  Sheep Milk  
+    - 254017  Goat Milk  
+    - 254018  Camel Milk  
+    - 254019  Other Milk  
+    - 254020  Hen Eggs  (Chicken Eggs)
+    - 254022  Duck Eggs  
+    - 254029  Other Bird Eggs  
+    - 254030  Honey  
+  - 2550  Food from Aquaculture  
+    - 255010  Gutted Iced Oily Fish  
+      - 25501010  Gutted Iced Tuna  
+      - 25501020  Gutted Iced Salmon  
+      - 25501090  Other Gutted Iced Oily Fish  
+    - 255020  Decapoda  
+      - 25502010  Lobster  
+      - 25502015  Crayfish  
+      - 25502020  Crab  
+      - 25502030  Prawn  
+      - 25502035  Shrimp  
+- 30  Materials  
+  - 3010  Fibres of Vegetal Origin  
+    - 301010  Cotton Lint  
+    - 301020  Flax Fibre and Tow  
+    - 301025  Flax Raw or Retted  
+    - 301030  Hemp Fibre and Tow  
+    - 301040  Jute Fibre  
+    - 301045  Jute-like Fibre  
+    - 301048  Abaca  (Manila Hemp)
+    - 301050  Sisal  
+    - 301059  Other Agave Fibres  
+    - 301060  Kapok Fibre  
+    - 301070  Ramie  
+    - 301080  Coir  
+    - 301090  Other Crop Fibre  
+  - 3015  Fibres of Animal Origin  
+    - 301510  Greasy Wool  
+    - 301515  Fine Hair  
+    - 301520  Coarse Goat Hair  
+    - 301525  Fine Goat Hair  
+    - 301530  Hair of Horses  
+    - 301540  Reelable Cocoons  
+    - 301590  Other Hair  
+  - 3020  Oleochemicals  
+    - 302010  Biodiesel  (FAME, Fatty Acid Methyl Ester)
+    - 302015  Used Cooking Oil  (UCOME, Used Cooking Oil Methyl Ester)
+    - 302018  Hydrotreated Vegetable Oil  (HVO)
+    - 302020  Polylactic Acid  (PLA)
+    - 302030  Polyamide 11  (PA 11)
+    - 302040  Ethylene  (Ethene)
+    - 302050  Propylene  (Propene)
+    - 302060  Xylene  (Xylol)
+  - 3030  Forest Products  
+    - 303010  Wood  (Timber)
+    - 303015  Sawnwood  (Lumber)
+    - 303020  Plywood  (Blockboard)
+    - 303030  Fibreboard  
+    - 303050  Wood Pellets  
+  - 3035  Paper  
+    - 303510  Newsprint  
+    - 303520  Containerboard  
+    - 303530  Pulp  
+    - 303550  Recovered Paper  
+  - 3040  Rubber and Wax  
+    - 304010  Raw Natural Rubber  
+    - 304019  Other Resins  
+    - 304020  Concentrated Latex  (HA Latex)
+    - 304022  Coagulated Latex  
+    - 304025  Technically Specified Rubber  (TSR)
+    - 304027  Ribbed Smoked Sheet Rubber  (RSS Rubber)
+    - 304030  Vegetal Wax  
+    - 304035  Beeswax  
+  - 3050  Inorganic Compounds  
+    - 305010  Sodium Carbonate  (Soda Ash, Washing Soda, E500)
+    - 305015  Sodium Hydroxide  (Caustic Soda, Lye)
+    - 305020  Glass  
+    - 305030  Intermetallics  
+      - 30503010  Ferrosilicon  
+      - 30503020  Manganese Silicide  
+  - 3060  Organic Compounds  
+    - 306010  Polymers  
+      - 30601010  Polyvinyl Chloride  (PVC)
+      - 30601020  Polyethylene  (PE)
+      - 30601025  Polyethylene Terephthalate  (PET)
+      - 30601030  Polypropylene  (PP)
+      - 30601040  Polystyrene  (PS)
+      - 30601050  Styrene-butadiene copolymer  (SBR, Styrene-butadiene Rubber)
+      - 30601055  Polybutadiene  (BR, Butadiene Rubber)
+    - 306020  Benzenoids  
+      - 30602010  Benzene  
+      - 30602015  Naphthalene  
+      - 30602017  Styrene  (Ethenylbenzene, Phenylethene)
+      - 30602020  Paraxylene  (p-Xylene)
+      - 30602030  Terephthalic Acid  (PTA)
+    - 306030  Alkanols and Polyols  
+      - 30603010  Methanol  
+      - 30603020  Ethanol  
+      - 30603025  Ethylene Glycol  
+      - 30603030  Propanol  
+      - 30603040  Butanol  
+  - 3070  Fertilizer  
+    - 307010  Urea  (Carbamide)
+    - 307012  Ammonia  
+    - 307013  Ammonium Nitrate  
+    - 307015  UAN  (Urea Ammonium Nitrate)
+    - 307020  DAP  (Diamidophosphate)
+    - 307025  MAP  (Monoammonium phosphate)
+    - 307030  Potash  
+  - 3080  Pesticide  
+    - 308010  Herbicide  
+    - 308020  Insecticide  
+    - 308030  Nematicide  
+    - 308040  Bactericide  
+    - 308050  Fungicide  
+    - 308060  Animal Repellent  
+- 40  Commoditized  
+  - 4010  Freight  
+    - 401010  Wet Freight  
+      - 40101010  Dirty Freight  
+      - 40101020  Clean Freight  
+      - 40101030  Gas Freight  
+    - 401020  Container Freight  
+    - 401025  Dry Bulk Freight  
+    - 401030  Air Freight  
+    - 401050  Cargo Spread  
+  - 4020  Weather  
+    - 402010  Temperature  
+    - 402020  Rainfall  
+    - 402030  Catastrophe  
+  - 4030  Emissions  
+    - 403010  CO2 permits  
+    - 403020  NOx permits  
+    - 403030  SO2 permits  
+    - 403040  Renewable Energy Credits/Guarantee of Origin  (GO, REC)
+    - 403042  Renewable Identification Number  (RIN)
+    - 403050  Emission Reduction Unit/Certified Emission Reduction  (CER, ERU)
+  - 4040  Commercial Water Rights  
+    - 404010  Diversion Rights  
+    - 404020  Groundwater Rights  
+    - 404030  Surface Storage Reservoir Rights  
+    - 404040  Treated Wastewater Rights  
+  - 4050  Tax and Duties  
+- 50  Financials  
+  - 5010  Money  
+    - 501010  Currency  
+    - 501015  Currency Variance  
+    - 501020  Digital Currency  
+    - 501080  Currency Basket  
+  - 5020  Fixed Income  
+    - 502010  Sovereign bond  (Government bonds)
+    - 502015  Sovereign bond variance  
+    - 502020  STIR  
+    - 502030  IRS  
+    - 502032  FRA  
+    - 502035  OIS  
+    - 502040  Inflation-linked Security  
+    - 502080  FI Basket  
+  - 5030  Equity  
+    - 503010  Single Stock  
+    - 503020  Dividend  
+    - 503030  Variance  
+    - 503080  Stock Index  
+  - 5040  Real Estate  
+    - 504010  REIT  
+    - 504020  Property Market Indicator  
+    - 504080  Property Portfolio  
+  - 5090  Other Financial  
+    - 509080  Commodity Index  
+    - 509090  Other Index  
+- 90  Ephemerals  
+  - 9080  Test  
+  - 9090  Unclassified  

@@ -1,0 +1,5 @@
+tmp
+secrets.mk
+*.canon
+.imported*
+.DisplayPrinter-debug.xml
